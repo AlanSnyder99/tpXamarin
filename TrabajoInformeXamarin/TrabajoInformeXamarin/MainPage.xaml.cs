@@ -20,7 +20,7 @@ namespace TrabajoInformeXamarin
 
         void ProcedimientoDeLogin(object sender, EventArgs e)
         {
-            Usuario usuario = new Usuario(contrasena.Text, email.Text);
+            Usuario usuario = new Usuario(email.Text, contrasena.Text);
           
             if (usuario.ValidacionLogin())
             {
