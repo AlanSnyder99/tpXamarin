@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {}
+    "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+    "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
+        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
         "projectName": "TrabajoInformeXamarin",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
+        "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\obj\\",
+        "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

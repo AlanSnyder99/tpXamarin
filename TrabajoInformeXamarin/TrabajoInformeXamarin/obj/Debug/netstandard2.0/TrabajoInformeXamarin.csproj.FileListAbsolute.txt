@@ -10,9 +10,6 @@ C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoIn
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.dll
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.pdb
-<<<<<<< HEAD
-C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\Index.xaml.g.cs
-=======
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\IndexAlumno.xaml.g.cs
 C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\bin\Debug\netstandard2.0\TrabajoInformeXamarin.deps.json
 C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\bin\Debug\netstandard2.0\TrabajoInformeXamarin.dll
@@ -27,4 +24,3 @@ C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin
 C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.dll
 C:\Users\Alan\source\repos\TPXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.pdb
->>>>>>> 1afdc3772a07c1506476deae27204a939e0a6443

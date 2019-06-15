@@ -1117,11 +1117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\TrabajoInformeXamarin.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\TrabajoInformeXamarin.Android.csproj",
       "projectName": "TrabajoInformeXamarin.Android",
-      "projectPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\TrabajoInformeXamarin.Android.csproj",
+      "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\TrabajoInformeXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\obj\\",
+      "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1142,8 +1142,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
-              "projectPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
+            "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+              "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
             }
           }
         }
