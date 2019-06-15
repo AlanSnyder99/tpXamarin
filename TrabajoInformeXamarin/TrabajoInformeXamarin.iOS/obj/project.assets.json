@@ -910,11 +910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
       "projectName": "TrabajoInformeXamarin.iOS",
-      "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+      "projectPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -935,8 +935,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
-              "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
+            "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+              "projectPath": "C:\\Users\\Alan\\source\\repos\\TPXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
             }
           }
         }

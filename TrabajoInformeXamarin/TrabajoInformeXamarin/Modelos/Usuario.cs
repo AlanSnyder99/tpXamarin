@@ -25,8 +25,9 @@ namespace TrabajoInformeXamarin.Modelos
         public Boolean ValidacionLogin()
         {
             Usuario usuarioPredetermiando = new Usuario();
+            usuarioPredetermiando.Email = "prueba";
             usuarioPredetermiando.Contrasena = "1234";
-            usuarioPredetermiando.Email = "prueba@prueba.com";
+           
 
             if (!this.Email.Equals("") && !this.Contrasena.Equals(""))
             {
