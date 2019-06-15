@@ -10,4 +10,4 @@ C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoIn
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.dll
 C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\TrabajoInformeXamarin.pdb
-C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\IndexAlumno.xaml.g.cs
+C:\Users\Alan\source\repos\TrabajoInformeXamarin\TrabajoInformeXamarin\TrabajoInformeXamarin\obj\Debug\netstandard2.0\Index.xaml.g.cs

@@ -25,7 +25,7 @@ namespace TrabajoInformeXamarin
             if (usuario.ValidacionLogin())
             {
                 DisplayAlert("Login", "Inicio Exitoso", "Oka");
-                this.Navigation.PushModalAsync(new IndexAlumno());
+                this.Navigation.PushModalAsync(new Index());
             }
             else
             {
@@ -34,15 +34,7 @@ namespace TrabajoInformeXamarin
 
         }
 
-        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            Preguntas selectedItem = e.SelectedItem as Preguntas;
-        }
-
-        void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            Preguntas tappedItem = e.Item as Preguntas;
-        }
+    }
 
     }
-}
+

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TrabajoInformeXamarin.Modelos
 {
-   public class Usuario
+    public class Usuario
     {
 
         public int Id { get; set; }
@@ -16,7 +16,7 @@ namespace TrabajoInformeXamarin.Modelos
 
         }
 
-        public Usuario (string Email, string Contrasena)
+        public Usuario(string Email, string Contrasena)
         {
             this.Email = Email;
             this.Contrasena = Contrasena;
@@ -30,23 +30,24 @@ namespace TrabajoInformeXamarin.Modelos
 
             if (!this.Email.Equals("") && !this.Contrasena.Equals(""))
             {
-                if(this.Email == usuarioPredetermiando.Email && this.Contrasena == usuarioPredetermiando.Contrasena)
+                if (this.Email == usuarioPredetermiando.Email && this.Contrasena == usuarioPredetermiando.Contrasena)
                 {
                     return true;
                 }
-                    else
-                    {
-                        return false;
-                    }
-                
+                else
+                {
+                    return false;
+                }
+
             }
 
             else
             {
                 return false;
             }
-                
-        }
 
+        }
     }
+
 }
+
