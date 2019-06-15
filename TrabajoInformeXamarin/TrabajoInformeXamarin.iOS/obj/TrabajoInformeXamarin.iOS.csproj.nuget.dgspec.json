@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
         "projectName": "TrabajoInformeXamarin.iOS",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
-        "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
-                "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
+              "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
               }
             }
           }
@@ -42,6 +42,14 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"
@@ -65,21 +73,21 @@
         }
       }
     },
-    "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
         "projectName": "TrabajoInformeXamarin",
-        "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
-        "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -104,11 +112,19 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

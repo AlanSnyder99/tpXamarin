@@ -13,8 +13,20 @@ namespace BdService.Controllers
         public IEnumerable<Alumno> Get()
         {
             MyContext ctx = new MyContext();
+            List<Alumno> listaAlumnosDb = new List<Alumno>();
+            listaAlumnosDb = ctx.Alumno.ToList();
             List<Alumno> listaAlumnos = new List<Alumno>();
-            listaAlumnos = ctx.Alumno.ToList();
+            foreach (Alumno alumnoDb in listaAlumnosDb)
+            {
+                Alumno alumno = new Alumno();
+                alumno.IdAlumno = alumnoDb.IdAlumno;
+                alumno.Nombre = alumnoDb.Nombre;
+                alumno.Apellido = alumnoDb.Apellido;
+                alumno.PuntosTotales = alumnoDb.PuntosTotales;
+                alumno.CantidadRespuestasCorrectas = alumnoDb.CantidadRespuestasCorrectas;
+                alumno.CantidadMejorRespuesta = alumnoDb.CantidadMejorRespuesta;
+                listaAlumnos.Add(alumno);
+            }
             return listaAlumnos;
         }
 
@@ -22,7 +34,14 @@ namespace BdService.Controllers
         public Alumno Get(int id)
         {
             MyContext ctx = new MyContext();
-            Alumno alumno = ctx.Alumno.SingleOrDefault(a => a.IdAlumno == id);
+            Alumno alumnoDb = ctx.Alumno.SingleOrDefault(a => a.IdAlumno == id);
+            Alumno alumno = new Alumno();
+            alumno.IdAlumno = alumnoDb.IdAlumno;
+            alumno.Nombre = alumnoDb.Nombre;
+            alumno.Apellido = alumnoDb.Apellido;
+            alumno.PuntosTotales = alumnoDb.PuntosTotales;
+            alumno.CantidadRespuestasCorrectas = alumnoDb.CantidadRespuestasCorrectas;
+            alumno.CantidadMejorRespuesta = alumnoDb.CantidadMejorRespuesta;
             return alumno;
         }
 
