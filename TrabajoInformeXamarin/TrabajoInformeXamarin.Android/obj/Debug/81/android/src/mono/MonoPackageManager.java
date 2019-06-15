@@ -112,6 +112,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TrabajoInformeXamarin.Android.dll" comes first in this list. */
 		"TrabajoInformeXamarin.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"TrabajoInformeXamarin.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
