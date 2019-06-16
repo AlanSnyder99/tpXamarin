@@ -25,7 +25,7 @@ namespace TrabajoInformeXamarin
             if (usuario.ValidacionLogin())
             {
                 DisplayAlert("Login", "Inicio Exitoso", "Oka");
-                this.Navigation.PushModalAsync(new IndexAlumno());
+                this.Navigation.PushModalAsync(new PostRestPage());
             }
             else
             {
