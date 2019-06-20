@@ -2,6 +2,45 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.Bcl/1.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.29": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -150,8 +189,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "12.0.2",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/TrabajoInformeXamarin.dll": {}
@@ -162,6 +203,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.Bcl/1.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.29": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -310,8 +390,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "12.0.2",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/TrabajoInformeXamarin.dll": {}
@@ -322,6 +404,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.Bcl/1.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.29": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -470,8 +591,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "12.0.2",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/TrabajoInformeXamarin.dll": {}
@@ -482,6 +605,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.Bcl/1.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.29": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
+          "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -630,8 +792,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "12.0.2",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/TrabajoInformeXamarin.dll": {}
@@ -643,6 +807,219 @@
     }
   },
   "libraries": {
+    "Microsoft.Bcl/1.1.10": {
+      "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
+      "type": "package",
+      "path": "microsoft.bcl/1.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "lib/Xamarin.iOS10/_._",
+        "lib/monoandroid/_._",
+        "lib/monotouch/_._",
+        "lib/net40/System.IO.dll",
+        "lib/net40/System.IO.xml",
+        "lib/net40/System.Runtime.dll",
+        "lib/net40/System.Runtime.xml",
+        "lib/net40/System.Threading.Tasks.dll",
+        "lib/net40/System.Threading.Tasks.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/_._",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8/System.IO.dll",
+        "lib/portable-net40+sl4+win8/System.IO.xml",
+        "lib/portable-net40+sl4+win8/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8/ensureRedirect.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+win8/System.IO.dll",
+        "lib/portable-net40+win8/System.IO.xml",
+        "lib/portable-net40+win8/System.Runtime.dll",
+        "lib/portable-net40+win8/System.Runtime.xml",
+        "lib/portable-net40+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8/ensureRedirect.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/portable-net451+win81+wpa81/_._",
+        "lib/portable-net451+win81/_._",
+        "lib/portable-win81+wp81+wpa81/_._",
+        "lib/sl4-windowsphone71/System.IO.dll",
+        "lib/sl4-windowsphone71/System.IO.xml",
+        "lib/sl4-windowsphone71/System.Runtime.dll",
+        "lib/sl4-windowsphone71/System.Runtime.xml",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.dll",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.xml",
+        "lib/sl4-windowsphone71/ensureRedirect.xml",
+        "lib/sl4/System.IO.dll",
+        "lib/sl4/System.IO.xml",
+        "lib/sl4/System.Runtime.dll",
+        "lib/sl4/System.Runtime.xml",
+        "lib/sl4/System.Threading.Tasks.dll",
+        "lib/sl4/System.Threading.Tasks.xml",
+        "lib/sl5/System.IO.dll",
+        "lib/sl5/System.IO.xml",
+        "lib/sl5/System.Runtime.dll",
+        "lib/sl5/System.Runtime.xml",
+        "lib/sl5/System.Threading.Tasks.dll",
+        "lib/sl5/System.Threading.Tasks.xml",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/wpa81/_._",
+        "microsoft.bcl.1.1.10.nupkg.sha512",
+        "microsoft.bcl.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "type": "package",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "content/net40/_._",
+        "content/netcore45/_._",
+        "content/portable-net40+win8+sl4+wp71+wpa81/_._",
+        "content/sl4-windowsphone71/_._",
+        "content/sl4/_._",
+        "microsoft.bcl.build.1.0.14.nupkg.sha512",
+        "microsoft.bcl.build.nuspec",
+        "tools/Install.ps1",
+        "tools/Microsoft.Bcl.Build.Tasks.dll",
+        "tools/Microsoft.Bcl.Build.targets",
+        "tools/Uninstall.ps1"
+      ]
+    },
+    "Microsoft.Net.Http/2.2.29": {
+      "sha512": "fc4CPEewJ30Xgal+fSq1lYIBt582A7eKlAL7O4HXiYAiTp2VTnA4osSvk7T2n8aS4xTCPVJusQk3yKLT0XSpkg==",
+      "type": "package",
+      "path": "microsoft.net.http/2.2.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "lib/Xamarin.iOS10/System.Net.Http.Extensions.XML",
+        "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll",
+        "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll",
+        "lib/Xamarin.iOS10/System.Net.Http.Primitives.xml",
+        "lib/monoandroid/System.Net.Http.Extensions.XML",
+        "lib/monoandroid/System.Net.Http.Extensions.dll",
+        "lib/monoandroid/System.Net.Http.Primitives.dll",
+        "lib/monoandroid/System.Net.Http.Primitives.xml",
+        "lib/monotouch/System.Net.Http.Extensions.XML",
+        "lib/monotouch/System.Net.Http.Extensions.dll",
+        "lib/monotouch/System.Net.Http.Primitives.dll",
+        "lib/monotouch/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.Extensions.XML",
+        "lib/net40/System.Net.Http.Extensions.dll",
+        "lib/net40/System.Net.Http.Primitives.dll",
+        "lib/net40/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/System.Net.Http.Extensions.XML",
+        "lib/net45/System.Net.Http.Extensions.dll",
+        "lib/net45/System.Net.Http.Primitives.dll",
+        "lib/net45/System.Net.Http.Primitives.xml",
+        "lib/net45/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8+wpa81/ensureRedirect.xml",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8/ensureRedirect.xml",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.xml",
+        "lib/win8/System.Net.Http.Extensions.XML",
+        "lib/win8/System.Net.Http.Extensions.dll",
+        "lib/win8/System.Net.Http.Primitives.dll",
+        "lib/win8/System.Net.Http.Primitives.xml",
+        "lib/wpa81/System.Net.Http.Extensions.XML",
+        "lib/wpa81/System.Net.Http.Extensions.dll",
+        "lib/wpa81/System.Net.Http.Primitives.dll",
+        "lib/wpa81/System.Net.Http.Primitives.xml",
+        "microsoft.net.http.2.2.29.nupkg.sha512",
+        "microsoft.net.http.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -904,24 +1281,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alan\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
       "projectName": "TrabajoInformeXamarin.iOS",
-      "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
-      "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\TrabajoInformeXamarin.iOS.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -935,8 +1312,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
-              "projectPath": "C:\\Users\\Alan\\source\\repos\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
+            "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\tpXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin\\TrabajoInformeXamarin.csproj"
             }
           }
         }
@@ -967,5 +1344,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.1.0 a 1.0.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n TrabajoInformeXamarin.iOS -> TrabajoInformeXamarin -> Xamarin.Essentials (>= 1.1.0) \r\n TrabajoInformeXamarin.iOS -> Xamarin.Essentials (>= 1.0.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.0.0.497661 a 3.6.0.264807. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n TrabajoInformeXamarin.iOS -> TrabajoInformeXamarin -> Xamarin.Forms (>= 4.0.0.497661) \r\n TrabajoInformeXamarin.iOS -> Xamarin.Forms (>= 3.6.0.264807)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
