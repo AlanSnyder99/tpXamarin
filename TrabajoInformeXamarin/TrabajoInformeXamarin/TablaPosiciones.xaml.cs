@@ -41,5 +41,15 @@ namespace TrabajoInformeXamarin
 
             }
         }
+
+        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            WSResult selectedItem = e.SelectedItem as WSResult;
+        }
+
+        void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            WSResult tappedItem = e.Item as WSResult;
+        }
     }
 }
